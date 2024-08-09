@@ -27,6 +27,7 @@ public class StudentController {
         List<Student> students = new ArrayList<>();
         students.add(new Student(1, "Diana", "Joes"));
         students.add(new Student(2, "Alice", "Rose"));
+        students.add(new Student(3, "Akira", "Nakaisan"));
         return ResponseEntity.ok(students);
     }
 
